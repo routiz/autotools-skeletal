@@ -1,5 +1,7 @@
-Makefile
-Makefile.in
+*.o
+*~
+**/Makefile
+**/Makefile.in
 aclocal.m4
 autom4te.cache/
 compile
@@ -11,9 +13,6 @@ configure
 depcomp
 install-sh
 missing
-src/.deps/
-src/Makefile
-src/Makefile.in
-src/main.o
-src/sample
+**/.deps/
+**/sample
 stamp-h1
